@@ -1,0 +1,17 @@
+#text-container{
+    width:fit-content;
+    height:50%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom:50%;
+    padding-top:50% ;
+}
+#masthead{
+    background-image: url("/assets/bg-masthead.jpg");
+}
+@media only screen and (min-width: 992px) {
+    #text-container{
+        padding-bottom:16%;
+        padding-top:16% ;
+    }
+}

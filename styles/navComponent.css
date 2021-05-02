@@ -1,0 +1,103 @@
+#nav-button{
+    margin-top:5%;
+    position: fixed;
+    right:4%;
+    height: 50px;
+    text-align: center;
+    width: fit-content;
+    background: rgba(52, 58, 64, 0.5);
+    opacity: 1;
+    z-index: 100;
+    color: white;
+}
+#nav-button:hover {
+    background: rgb(52, 58, 64);
+}
+#nav-button:focus, #nav-button:hover {
+    color: rgb(255, 255, 255);
+}
+#sidebar-wrapper-closed {
+    position: fixed;
+    right:0;
+    width:0;
+    height: 100%;
+    padding-top: 0.5%;
+    padding-right: 1%;
+    transition: all 0.4s ease 0s;
+    transform: translateX(2%);
+    background-color: #1D809F;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    visibility: hidden;
+    z-index: 50;
+    overflow: hidden;
+}
+#sidebar-wrapper-open {
+    position: fixed;
+    right:0;
+    width:90%;
+    padding-top: 0.09%;
+    padding-right: 2%;
+    height: 100%;
+    z-index: 50;
+    transition: all 0.4s ease 0s;
+    background-color: #1D809F;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav {
+    width: 150%;
+    padding: 0;
+    list-style: none;
+
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 1.2rem;
+    background: rgba(52, 58, 64, 0.1);
+    height: 80px;
+    line-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media only screen and (min-width: 992px) {
+    #nav-button{
+        margin-top:1%;
+
+    }
+
+    #sidebar-wrapper-open {
+        width:20%;
+    }
+
+
+
+}
