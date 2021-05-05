@@ -1,9 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project based on [Startboostraps StylishPortfolio Template](https://github.com/startbootstrap/startbootstrap-stylish-portfolio)
 
+
 ## Getting Started
 
 * First,clone or download the source code from here
-* 
 * Then run 
 ```npm install```
 
