@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project based on [Startboostraps StylishPortfolio Template](https://github.com/startbootstrap/startbootstrap-stylish-portfolio)
-
+![Design Image](image.png)
 
 ## Getting Started
 
